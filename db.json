@@ -1,0 +1,50 @@
+ <tr data-index="1">
+                <td>номер 1</td>
+                <td>Sadness</td>
+                <td>Вул. Борисівське-НГК</td>
+                <td>11.08.2004</td>
+                <td>500</td>
+                <td>Микитин О. В.</td>
+                <td>Дрібна торгівля</td>
+                <td>140 робочих місць</td>
+                <td>Пити_сочок ...</td>
+                <td><a data-index="1" class="delete" href="#">Видалити</a> </td>
+            </tr>
+            <tr data-index="2">
+                <td>номер 2</td>
+                <td> КП “Житло” </td>
+                <td>вул. Кропного, 1а</td>
+                <td>06.05.03</td>
+                <td>34,5</td>
+                <td> Українець В.О.</td>
+                <td>Гуртова торгівля</td>
+                <td>125 робочих місць</td>
+                <td>???</td>
+                <td><a data-index="2" class="delete" href="#">Видалити</a></td>
+            </tr>
+            <tr data-index="3">
+                <td>номер 3</td>
+                <td> ВАТ “Будсервіс”  </td>
+                <td>вул. Макухи, 1а</td>
+                <td>23.08.03</td>
+                <td>234,8</td>
+                <td> Білик В.Й.</td>
+                <td>Ремонт споруд</td>
+                <td>132 робочих місць</td>
+                <td>???</td>
+                <td><a data-index="3" class="delete" href="#">Видалити</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <form id="InputForm">
+        <input type="text" id="nomerp/pInput" placeholder="номер п/п" required>
+        <input type="text" id="NameInput" placeholder="назва підприємства" required>
+        <input type="text" id="LocationInput" placeholder="адреса підприємства" required>
+        <input type="text" id="DateInput" placeholder="дата реєстрації підприємства" required>
+        <input type="text" id="StatutoryfundInput" placeholder="статутний фонд, тис. грн" required>
+        <input type="text" id="HeadInput" placeholder="керівник" required>
+        <input type="text" id="ActivityInput" placeholder="вид діяльності підприємства" required>
+        <input type="text" id="NomberofjobsInput" placeholder="кількість робочих місць" required>
+        <input type="text" id="LogotypeInput" placeholder="логотип підприємства" required>
+        <input type="submit" id="Send">
+    </form>
